@@ -1,0 +1,132 @@
+!pip install numpy opencv-python torch rawpy
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define image properties
+width, height = 1920, 1280
+bit_depth = 12  # 12-bit depth, adjust if needed
+
+# Read raw data
+file_path = r"D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw"
+with open(file_path, 'rb') as f:
+    raw_data = np.fromfile(f, dtype=np.uint16)  # Use uint16 assuming 12-bit packed data fits
+
+# Reshape the raw data to the correct dimensions
+raw_image = raw_data.reshape((height, width))
+
+# Scale the image to 8-bit for viewing (0-255 range)
+raw_image_8bit = (raw_image / raw_image.max() * 255).astype(np.uint8)
+
+# Display the image using matplotlib
+plt.imshow(raw_image_8bit, cmap='gray')
+plt.axis('off')  # Hide axis for a cleaner display
+plt.show()
+
+
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+
+# Define image properties
+width, height = 1920, 1280
+bit_depth = 12  # Adjust based on your file's bit depth
+
+# Load raw Bayer data
+file_path = r"D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw"
+with open(file_path, 'rb') as f:
+    raw_data = np.fromfile(f, dtype=np.uint16)  # Assuming 12-bit packed data fits in 16 bits
+
+# Reshape to match the image dimensions
+raw_image = raw_data.reshape((height, width))
+
+# Scale the data to fit OpenCV's requirements (0-4095 range for 12-bit)
+# Ensure max value for 12-bit images is 4095 for proper scaling
+if raw_image.max() > 4095:
+    raw_image = np.clip(raw_image, 0, 4095)
+raw_image = (raw_image / 4095 * 255).astype(np.uint8)
+
+# Step 2: Demosaicing (assuming Bayer GRBG pattern)
+demosaiced_image = cv2.cvtColor(raw_image, cv2.COLOR_BayerGR2RGB)
+
+# Step 3: Apply White Balance
+# This is a simple white balance; you may need to adjust multipliers depending on the image
+# Set channel multipliers for each color (these are rough estimates)
+red_gain, green_gain, blue_gain = 1.5, 1.0, 1.8  # Adjust based on your needs
+white_balanced_image = demosaiced_image.copy()
+white_balanced_image[:, :, 0] = np.clip(white_balanced_image[:, :, 0] * red_gain, 0, 255)
+white_balanced_image[:, :, 1] = np.clip(white_balanced_image[:, :, 1] * green_gain, 0, 255)
+white_balanced_image[:, :, 2] = np.clip(white_balanced_image[:, :, 2] * blue_gain, 0, 255)
+
+# Step 4: Gamma Correction (to convert linear image to sRGB)
+gamma = 2.2
+gamma_corrected_image = np.power(white_balanced_image / 255.0, 1 / gamma) * 255
+gamma_corrected_image = gamma_corrected_image.astype(np.uint8)
+
+# Display the final preprocessed image
+plt.imshow(gamma_corrected_image)
+plt.axis('off')
+plt.show()
+
+
+import torch
+
+# Path to your downloaded model
+model_path = r"D:\PYTHON\ffdnet-pytorch\ffdnet-pytorch\models\net_rgb.pth"  # Adjust path if needed
+
+# Load the model
+model = torch.load(model_path, map_location='cpu', weights_only=True)  # Use 'cpu' if you don’t have a GPU
+print("Model loaded successfully!")
+
+model = FFDNet()
+model.load_state_dict(torch.load(r"D:\PYTHON\ffdnet-pytorch\ffdnet-pytorch\models\net_rgb.pth", map_location=torch.device('cpu')), strict=False)
+model.eval()
+
+!pip install torch torchvision pillow numpy
+import sys
+sys.path.append("D:\PYTHON\ffdnet-pytorch\ffdnet-pytorch")  # Change this to the path where FFDNet.py is located
+
+import sys
+import torch
+from PIL import Image
+import numpy as np
+
+# Add the FFDNet directory to your path
+sys.path.append(r"D:\PYTHON\ffdnet-pytorch\ffdnet-pytorch")  # Adjust this path if needed
+
+from ffdnet import FFDNet, UpSampleFeaturesFunction  # Adjust the import based on your directory structure
+
+# Path to your downloaded model
+model_path = r"D:\PYTHON\ffdnet-pytorch\ffdnet-pytorch\models\net_rgb.pth"  # Adjust path if needed
+
+# Load the model with the number of input channels (1 for grayscale)
+model = FFDNet(num_input_channels=1)  # Initialize the model with 1 input channel
+model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')), strict=False)  # Load the model weights
+model.eval()  # Set the model to evaluation mode
+print("Model loaded successfully!")
+
+# Load and process the RAW image
+input_img_path = "D:\\PYTHON\\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw"
+input_img = np.fromfile(input_img_path, dtype=np.uint16)  # Load RAW image data
+input_img = input_img.reshape((1280, 1920))  # Reshape based on image dimensions
+
+# Convert to a PIL Image and then to a PyTorch tensor
+input_img = Image.fromarray(input_img).convert('L')  # Convert to grayscale
+input_tensor = torch.from_numpy(np.array(input_img)).float() / 255.0  # Normalize to [0, 1]
+input_tensor = input_tensor.unsqueeze(0).unsqueeze(0)  # Add batch and channel dimensions
+
+# Apply UpSampleFeaturesFunction as a preprocessing step if required
+input_tensor = UpSampleFeaturesFunction.apply(input_tensor)
+
+# Denoise the image
+with torch.no_grad():  # Disable gradient calculation
+    denoised_img = model(input_tensor)  # Apply the model to the input tensor
+
+# Post-process and convert the output tensor back to an image format
+denoised_img = denoised_img.squeeze(0).squeeze(0).numpy()  # Remove batch and channel dimensions
+denoised_img = (denoised_img * 255).astype(np.uint8)  # Scale back to [0, 255]
+
+# Display or save the denoised image
+denoised_image_pil = Image.fromarray(denoised_img)
+denoised_image_pil.show()  # Display the denoised image
+# denoised_image_pil.save('denoised_image.png')  # Optionally save the image
