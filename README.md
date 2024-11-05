@@ -1,7 +1,12 @@
+
+
+
 # ISP Image Processor
 
 A Python-based standalone application to perform basic Image Signal Processing (ISP) on raw Bayer images. This app implements several ISP routines and allows parameter control for processing.
 
+## Documentation of our Assignments:
+https://docs.google.com/document/d/1PnSHAyMdulxG-6h5mR8IXQlvyiZpmqV6MfYaIRAckGo/edit?usp=sharing
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
