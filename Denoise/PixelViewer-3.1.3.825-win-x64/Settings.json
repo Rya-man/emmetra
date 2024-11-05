@@ -1,0 +1,12 @@
+{
+  "Version": 8,
+  "LastModifiedTime": -8584709619599120105,
+  "Values": [
+    {
+      "Name": "AcceptNonStableApplicationUpdate",
+      "Type": "Boolean",
+      "Default": true,
+      "Value": false
+    }
+  ]
+}

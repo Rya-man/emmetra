@@ -1,0 +1,613 @@
+2024-11-03 20:12:05.5062 202800 1    TRACE App: [Performance] Took 367 ms to initialize Avalonia framework 
+2024-11-03 20:12:05.5354 202800 1    WARN  App: Multi-instances server stream created 
+2024-11-03 20:12:05.5354 202800 1    WARN  App: Start waiting for multi-instances client 
+2024-11-03 20:12:05.5457 202800 1    DEBUG App: Start loading persistent state 
+2024-11-03 20:12:05.5457 202800 1    DEBUG App: Complete loading persistent state 
+2024-11-03 20:12:05.5457 202800 1    DEBUG App: Start saving persistent state 
+2024-11-03 20:12:05.5457 202800 1    WARN  App: Privacy Policy is not agreed yet 
+2024-11-03 20:12:05.5457 202800 1    WARN  App: User Agreement is not agreed yet 
+2024-11-03 20:12:05.5457 202800 1    DEBUG App: Start loading settings 
+2024-11-03 20:12:05.5607 202800 1    WARN  App: This is the first launch 
+2024-11-03 20:12:05.5607 202800 1    DEBUG App: Complete loading settings 
+2024-11-03 20:12:05.5845 202800 1    DEBUG App: No need to output log to localhost 
+2024-11-03 20:12:05.5845 202800 1    DEBUG App: Change culture info to en-IN 
+2024-11-03 20:12:05.5908 202800 1    DEBUG App: Complete saving persistent state 
+2024-11-03 20:12:05.6283 202800 1    WARN  App: Unable to load string resource from avares://CarinaStudio.AppSuite.Core/Strings/en-IN.axaml 
+2024-11-03 20:12:05.6283 202800 1    WARN  App: No built-in string resource for en-IN 
+2024-11-03 20:12:05.6283 202800 1    WARN  App: Unable to load string resource from avares://PixelViewer/Strings/en-IN.xaml 
+2024-11-03 20:12:05.6283 202800 1    WARN  App: No string resources for en-IN 
+2024-11-03 20:12:05.6283 202800 1    DEBUG App: System theme mode changed to Light 
+2024-11-03 20:12:05.8045 202800 1    WARN  Avalonia: [Binding][SplashWindowImpl] Error in binding to CarinaStudio.AppSuite.Controls.SplashWindowImpl.Title: Null value in expression '{empty}' at '$parent[Window, 0]'. 
+2024-11-03 20:12:06.1764 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:12:07.8735 202800 1    DEBUG ProductManager: Start initialization 
+2024-11-03 20:12:07.8735 202800 1    DEBUG ProductManager: 0 info of product(s) loaded 
+2024-11-03 20:12:07.8735 202800 1    DEBUG ProductManager: Complete initialization 
+2024-11-03 20:12:07.8735 202800 1    WARN  ScriptManager: No implementation specified 
+2024-11-03 20:12:07.9189 202800 1    DEBUG ColorSpace: Initialize 
+2024-11-03 20:12:07.9189 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 20:12:07.9189 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-03 20:12:07.9378 202800 1    DEBUG ColorSpace: Found 0 color space files 
+2024-11-03 20:12:07.9378 202800 1    DEBUG ColorSpace: 0 color space(s) loaded 
+2024-11-03 20:12:07.9378 202800 1    DEBUG ImageRenderingProfiles: Initialize 
+2024-11-03 20:12:07.9673 202800 1    DEBUG ImageRenderingProfiles: 0 user-defined profile(s) loaded 
+2024-11-03 20:12:08.4988 202800 1    DEBUG Workspace-1: Create session Session-2 
+2024-11-03 20:12:08.4988 202800 1    DEBUG Workspace-1: Attach session Session-2 at 0, count: 1 
+2024-11-03 20:12:08.4988 202800 1    DEBUG Workspace-1: Activate session Session-2 
+2024-11-03 20:12:08.4988 202800 1    DEBUG Session-2: Activate 
+2024-11-03 20:12:08.6602 202800 1    DEBUG App: Show main window 01bac80c, 1 created 
+2024-11-03 20:12:08.8971 202800 1    WARN  Avalonia: [Binding][RotateTransform] Error in binding to { {M11:1 M12:0} {M21:0 M22:1} {M31:0 M32:0} }.Angle: Null value in expression '{empty}' at ''. 
+2024-11-03 20:12:08.9068 202800 1    WARN  Avalonia: [Binding][SolidColorBrush] Error in binding to #00000000.Color: Null value in expression '{empty}' at ''. 
+2024-11-03 20:12:09.8303 202800 1    WARN  SessionControl: Attached screen changed 
+2024-11-03 20:12:09.9606 202800 1    DEBUG App: Start saving persistent state 
+2024-11-03 20:12:09.9671 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-03 20:12:09.9671 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 20:12:09.9671 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-03 20:12:09.9671 202800 1    INFO  App: This is the latest application 
+2024-11-03 20:12:09.9671 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:12:10.0329 202800 1    DEBUG App: Complete saving persistent state 
+2024-11-03 20:12:10.3541 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.4203 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-03 20:12:10.8323 202800 1    DEBUG MainWindow: Show User Agreement dialog 
+2024-11-03 20:12:14.3827 202800 1    WARN  App: User agreed the User Agreement 
+2024-11-03 20:12:14.3827 202800 1    DEBUG App: Start saving persistent state 
+2024-11-03 20:12:14.3827 202800 1    DEBUG MainWindow: Show Privacy Policy dialog 
+2024-11-03 20:12:14.5672 202800 1    DEBUG App: Complete saving persistent state 
+2024-11-03 20:12:15.7073 202800 1    WARN  App: User agreed the Privacy Policy 
+2024-11-03 20:12:15.7073 202800 1    DEBUG App: Start saving persistent state 
+2024-11-03 20:12:15.7073 202800 1    DEBUG MainWindow: Show application change list dialog 
+2024-11-03 20:12:15.7657 202800 1    DEBUG App: Complete saving persistent state 
+2024-11-03 20:12:17.3927 202800 1    WARN  MainWindow: All initial dialogs closed 
+2024-11-03 20:12:17.3927 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:12:17.4037 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:12:22.5289 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:12:22.5289 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:12:46.7735 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:12:46.8181 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:12:46.8253 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:12:52.1822 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:12:52.1822 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:13:18.9745 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:13:19.0100 202800 22   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:13:19.0135 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:13:19.0880 202800 7    DEBUG Session-2: Create source for 'C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-11-03 145938.png' 
+2024-11-03 20:13:19.0880 202800 7    DEBUG FileImageDataSource: Create source of 'C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-11-03 145938.png' 
+2024-11-03 20:13:19.1684 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 5.2 MB, max: 2.0 GB 
+2024-11-03 20:13:19.1684 202800 1    DEBUG Session-2: Render image for 'C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-11-03 145938.png', dimensions: 1541x879 
+2024-11-03 20:13:19.2382 202800 1    DEBUG Session-2: Image for 'C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-11-03 145938.png' rendered 
+2024-11-03 20:13:19.2459 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 10.3 MB, max: 2.0 GB 
+2024-11-03 20:13:19.3870 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 15.5 MB, max: 2.0 GB 
+2024-11-03 20:13:25.0820 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:13:25.0820 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:13:35.6993 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:13:35.7425 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:13:35.7507 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:13:43.3506 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:13:43.3506 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:13:49.7607 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:13:49.7849 202800 25   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:13:49.7849 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:13:58.6689 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:13:58.6689 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:13:59.5107 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:13:59.5251 202800 25   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:13:59.5313 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:14:07.2437 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:14:07.2437 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:15:07.2667 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-03 20:15:08.0998 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 20:15:08.1859 202800 26   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:15:08.1859 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:15:56.0162 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:15:56.0162 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:16:11.6832 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 20:16:11.6850 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 20:16:21.1665 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 20:16:21.1665 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 20:17:21.2104 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-03 21:15:55.7222 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 21:15:55.7222 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-03 21:15:56.2755 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-03 21:15:56.3197 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 21:15:56.3197 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-03 21:15:56.7228 202800 1    INFO  App: This is the latest application 
+2024-11-03 22:15:55.7325 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 22:15:55.7325 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-03 22:15:56.2073 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-03 22:15:56.2073 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 22:15:56.2073 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-03 22:15:56.7306 202800 1    INFO  App: This is the latest application 
+2024-11-03 22:24:45.4615 202800 1    WARN  App: Enter user interactive mode 
+2024-11-03 22:24:45.4965 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-03 22:24:45.4965 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-03 22:24:53.3406 202800 1    WARN  App: Leave user interactive mode 
+2024-11-03 22:24:53.3406 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-03 22:25:53.3475 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-03 23:15:55.7348 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 23:15:55.7348 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-03 23:15:56.1270 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-03 23:15:56.1270 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-03 23:15:56.1270 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-03 23:15:56.7410 202800 1    INFO  App: This is the latest application 
+2024-11-04 00:27:06.5468 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 00:27:06.5468 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 00:27:07.4359 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 00:27:07.4359 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 00:27:07.4359 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 00:27:07.5527 202800 1    INFO  App: This is the latest application 
+2024-11-04 01:27:06.5710 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 01:27:06.5710 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 01:27:07.0434 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 01:27:07.0434 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 01:27:07.0434 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 01:27:07.6078 202800 1    INFO  App: This is the latest application 
+2024-11-04 01:31:41.2781 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 01:31:41.3017 202800 3    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 01:31:41.3017 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 01:31:44.8316 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 01:31:44.8316 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 01:32:44.8379 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-04 08:50:54.2917 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 08:50:54.2917 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 08:50:54.9450 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 08:50:54.9450 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 08:50:54.9450 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 08:50:55.2988 202800 1    INFO  App: This is the latest application 
+2024-11-04 12:24:08.9368 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 12:24:08.9368 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 12:24:09.0209 202800 1    WARN  NetworkManager: Failed to ping '208.67.222.222' 
+2024-11-04 12:24:09.0209 202800 1    ERROR JsonPackageResolver: Error occurred while performing operation System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to write data to the transport connection: An established connection was aborted by the software in your host machine..
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.Send(ReadOnlySpan`1, SocketFlags)
+   at System.Net.Sockets.NetworkStream.Write(ReadOnlySpan`1)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(ReadOnlySpan`1)
+   at System.Net.Security.SyncReadWriteAdapter.WriteAsync(Stream, ReadOnlyMemory`1, CancellationToken)
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1, CancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1, CancellationToken)
+   at System.Net.Security.SslStream.Write(Byte[], Int32, Int32)
+   at System.IO.Stream.Write(ReadOnlySpan`1 buffer)
+   at System.Net.Http.HttpConnection.WriteToStreamAsync(ReadOnlyMemory`1, Boolean)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage, HttpCompletionOption, CancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at CarinaStudio.Net.WebRequestStreamProvider.<>c__DisplayClass7_0.<OpenStreamAsync>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync(CancellationToken)
+   at CarinaStudio.AutoUpdate.BaseUpdaterComponent.PerformOperation()
+2024-11-04 12:24:09.1298 202800 1    DEBUG JsonPackageResolver: Change state from Started to Failed 
+2024-11-04 12:24:09.1298 202800 1    WARN  NetworkManager: Failed to ping '208.67.220.220' 
+2024-11-04 12:24:09.1298 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 12:24:09.1298 202800 1    ERROR App: No application version gotten from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 12:24:09.1298 202800 1    DEBUG JsonPackageResolver: Change state from Failed to Disposed 
+2024-11-04 12:24:09.1523 202800 1    WARN  NetworkManager: Failed to ping '1.1.1.1' 
+2024-11-04 12:24:09.2577 202800 1    WARN  NetworkManager: Failed to ping '1.0.0.1' 
+2024-11-04 12:54:31.0807 202800 1    WARN  NetworkManager: Failed to ping '208.67.222.222' 
+2024-11-04 13:24:08.9450 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 13:24:08.9569 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 13:24:09.3701 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 13:24:09.3701 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 13:24:09.3706 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 13:24:09.9576 202800 1    INFO  App: This is the latest application 
+2024-11-04 14:24:08.9490 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 14:24:08.9490 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 14:24:09.3765 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 14:24:09.3765 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 14:24:09.3765 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 14:24:09.9472 202800 1    INFO  App: This is the latest application 
+2024-11-04 14:49:10.9161 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:49:11.9760 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:49:11.9760 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:49:17.6682 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:49:17.6682 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:49:26.4443 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:49:26.4967 202800 18   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:49:26.4967 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:49:26.5755 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 10.3 MB, max: 2.0 GB 
+2024-11-04 14:49:26.5862 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 5.2 MB, max: 2.0 GB 
+2024-11-04 14:49:26.5862 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 0 B, max: 2.0 GB 
+2024-11-04 14:49:26.5862 202800 18   DEBUG Session-2: Create source for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-04 14:49:26.5862 202800 18   DEBUG FileImageDataSource: Create source of 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-04 14:49:26.5862 202800 21   DEBUG Session-2: Dispose source for 'C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-11-03 145938.png' 
+2024-11-04 14:49:26.5894 202800 21   DEBUG FileImageDataSource: Release source of 'C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-11-03 145938.png' 
+2024-11-04 14:49:26.6362 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 5.2 MB, max: 2.0 GB 
+2024-11-04 14:49:26.6362 202800 1    DEBUG Session-2: Render image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw', dimensions: 1541x879 
+2024-11-04 14:49:26.6739 202800 1    WARN  FileImageDataSource: Close 1 opened stream(s) of 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-04 14:49:26.7022 202800 1    DEBUG Session-2: Image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' rendered 
+2024-11-04 14:49:26.7022 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 10.3 MB, max: 2.0 GB 
+2024-11-04 14:49:26.7950 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 15.5 MB, max: 2.0 GB 
+2024-11-04 14:49:40.7449 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:49:40.7449 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:49:43.7014 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:49:43.7223 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:49:43.7223 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:49:49.6753 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:49:49.6753 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:49:52.3508 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:49:52.3645 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:49:52.3645 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:50:19.5891 202800 1    DEBUG Session-2: Request 5.6 MB for rendered image, total: 21.1 MB, max: 2.0 GB 
+2024-11-04 14:50:19.5891 202800 1    DEBUG Session-2: Render image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw', dimensions: 1664x879 
+2024-11-04 14:50:19.6320 202800 1    WARN  FileImageDataSource: Close 1 opened stream(s) of 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-04 14:50:19.6645 202800 1    DEBUG Session-2: Image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' rendered 
+2024-11-04 14:50:19.6645 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 15.9 MB, max: 2.0 GB 
+2024-11-04 14:50:19.6645 202800 1    DEBUG Session-2: Request 5.6 MB for rendered image, total: 21.5 MB, max: 2.0 GB 
+2024-11-04 14:50:19.7512 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 16.3 MB, max: 2.0 GB 
+2024-11-04 14:50:19.7512 202800 1    DEBUG Session-2: Request 5.6 MB for rendered image, total: 21.9 MB, max: 2.0 GB 
+2024-11-04 14:50:22.7651 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 16.7 MB, max: 2.0 GB 
+2024-11-04 14:50:31.5933 202800 1    DEBUG Session-2: Request 3.4 KB for rendered image, total: 16.7 MB, max: 2.0 GB 
+2024-11-04 14:50:31.5933 202800 1    DEBUG Session-2: Render image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw', dimensions: 1x879 
+2024-11-04 14:50:31.6264 202800 1    WARN  FileImageDataSource: Close 1 opened stream(s) of 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-04 14:50:31.6264 202800 1    DEBUG Session-2: Image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' rendered 
+2024-11-04 14:50:31.6264 202800 1    DEBUG Session-2: Release 5.6 MB for rendered image, total: 11.2 MB, max: 2.0 GB 
+2024-11-04 14:50:31.6264 202800 1    DEBUG Session-2: Request 3.4 KB for rendered image, total: 11.2 MB, max: 2.0 GB 
+2024-11-04 14:50:31.6463 202800 1    DEBUG Session-2: Release 5.6 MB for rendered image, total: 5.6 MB, max: 2.0 GB 
+2024-11-04 14:50:31.6463 202800 1    DEBUG Session-2: Request 3.4 KB for rendered image, total: 5.6 MB, max: 2.0 GB 
+2024-11-04 14:50:34.5057 202800 25   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:50:34.5156 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:50:34.6481 202800 1    DEBUG Session-2: Release 5.6 MB for rendered image, total: 10.3 KB, max: 2.0 GB 
+2024-11-04 14:50:38.5030 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 5.2 MB, max: 2.0 GB 
+2024-11-04 14:50:38.5030 202800 1    DEBUG Session-2: Render image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw', dimensions: 1541x879 
+2024-11-04 14:50:38.5388 202800 1    WARN  FileImageDataSource: Close 1 opened stream(s) of 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-04 14:50:38.5624 202800 1    DEBUG Session-2: Image for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' rendered 
+2024-11-04 14:50:38.5624 202800 1    DEBUG Session-2: Release 3.4 KB for rendered image, total: 5.2 MB, max: 2.0 GB 
+2024-11-04 14:50:38.5624 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 10.3 MB, max: 2.0 GB 
+2024-11-04 14:50:38.6338 202800 1    DEBUG Session-2: Release 3.4 KB for rendered image, total: 10.3 MB, max: 2.0 GB 
+2024-11-04 14:50:38.6338 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 15.5 MB, max: 2.0 GB 
+2024-11-04 14:50:41.6442 202800 1    DEBUG Session-2: Release 3.4 KB for rendered image, total: 15.5 MB, max: 2.0 GB 
+2024-11-04 14:50:44.9686 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:50:44.9686 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:50:51.0657 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:50:51.0771 202800 25   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:50:51.0971 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:51:25.5287 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:51:25.5287 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:52:25.5530 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-04 14:54:21.3384 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:54:21.3522 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:54:21.3522 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:54:26.3107 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:26.3107 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:26.3107 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:26.3107 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:26.3107 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:26.3107 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:30.2129 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:30.2129 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:30.2129 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:30.2407 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:30.2407 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:30.2407 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:31.6900 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:31.6900 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:31.6900 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:31.7155 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:31.7175 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:31.7175 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:35.2820 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:35.2820 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:35.2820 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:35.2981 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:35.2981 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:35.2981 202800 1    WARN  Avalonia: [Binding][MenuItem] Error in binding to Avalonia.Controls.MenuItem.Command: Could not find a matching property accessor for 'LayoutMainWindowsCommand' on 'Carina.PixelViewer.MainWindow' 
+2024-11-04 14:54:59.5653 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:54:59.5653 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:55:04.3495 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:55:04.3755 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:55:04.3755 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:55:23.6334 202800 26   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:55:23.6445 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:55:29.6576 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:55:29.6576 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:55:35.2692 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:55:35.3062 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:55:35.3196 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:55:39.5455 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:55:39.5455 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:55:48.9475 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:55:48.9969 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:55:48.9969 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:55:57.2765 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:55:57.2765 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:56:03.3254 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:56:03.3408 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:56:03.3408 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:56:07.1166 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:56:07.1166 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:56:20.7607 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:56:20.7796 202800 7    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:56:20.7796 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:56:24.4404 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:56:24.4404 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:57:21.1457 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:57:21.2018 202800 9    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:57:21.2018 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:57:43.6384 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:57:43.6384 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:57:47.7543 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:57:47.7696 202800 24   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:57:47.7696 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:58:48.7736 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:58:48.7736 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 14:59:18.8729 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 14:59:18.8954 202800 3    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 14:59:18.8954 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 14:59:22.7092 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 14:59:22.7092 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 15:00:22.7114 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-04 15:39:58.3994 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 15:39:58.3994 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 15:39:58.8544 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 15:39:58.8549 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 15:39:58.8549 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 15:39:59.4033 202800 1    INFO  App: This is the latest application 
+2024-11-04 16:30:47.8199 202800 1    ERROR NetworkManager: Unable to get active IPv4 address for connection to internet 
+2024-11-04 16:44:14.6638 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 16:44:14.6638 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 16:44:15.0618 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 16:44:15.0618 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 16:44:15.0618 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 16:44:15.6684 202800 1    INFO  App: This is the latest application 
+2024-11-04 16:49:19.7832 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 16:49:19.8329 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 16:49:19.8427 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 16:49:22.9921 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 16:49:22.9921 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 16:50:22.9992 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-04 20:26:41.5751 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 20:26:41.5751 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 20:26:42.2503 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 20:26:42.2503 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 20:26:42.2503 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 20:26:42.6752 202800 1    INFO  App: This is the latest application 
+2024-11-04 21:26:41.5830 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 21:26:41.5830 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 21:26:41.9657 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 21:26:41.9657 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 21:26:41.9657 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 21:26:42.5883 202800 1    INFO  App: This is the latest application 
+2024-11-04 22:14:23.9347 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 22:14:24.9956 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:14:25.0070 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:14:28.9821 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 22:14:28.9821 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 22:14:32.5286 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 22:14:32.5866 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:14:32.5941 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:14:51.4684 202800 8    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:14:51.4684 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:15:01.1889 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 22:15:01.1889 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 22:15:37.7141 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 22:15:37.7689 202800 18   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:15:37.7689 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:15:51.3283 202800 18   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:15:51.3283 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:15:55.6631 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 22:15:55.6631 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 22:16:55.6709 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-04 22:16:58.4830 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 22:16:58.5381 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:16:58.5381 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:17:04.8029 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 22:17:04.8029 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 22:17:12.3000 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 22:17:12.3242 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:17:12.3242 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:17:20.1088 202800 1    ERROR Session-2: Error occurred while selecting rendered format for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' System.ArgumentException: Unsupported format.
+   at Carina.PixelViewer.Media.ImageRenderers.SkiaCompressedFormatImageRenderer.CreateCodec(IImageDataSource source, Stream stream, CancellationToken cancellationToken) in C:\Studio\PixelViewer\PixelViewer\Media\ImageRenderers\SkiaCompressedFormatImageRenderer.cs:line 49
+   at Carina.PixelViewer.Media.ImageRenderers.SkiaCompressedFormatImageRenderer.<>c__DisplayClass6_0.<SelectRenderedFormatAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ImageRenderers\SkiaCompressedFormatImageRenderer.cs:line 172
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Carina.PixelViewer.Media.ImageRenderers.SkiaCompressedFormatImageRenderer.SelectRenderedFormatAsync(IImageDataSource source, ImageRenderingOptions renderingOptions, IList`1 planeOptions, CancellationToken cancellationToken) in C:\Studio\PixelViewer\PixelViewer\Media\ImageRenderers\SkiaCompressedFormatImageRenderer.cs:line 169
+   at Carina.PixelViewer.ViewModels.Session.RenderImage() in C:\Studio\PixelViewer\PixelViewer\ViewModels\Session.cs:line 4177
+2024-11-04 22:17:20.2209 202800 1    DEBUG Session-2: Request 5.2 MB for rendered image, total: 20.7 MB, max: 2.0 GB 
+2024-11-04 22:17:23.2340 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 15.5 MB, max: 2.0 GB 
+2024-11-04 22:17:27.0071 202800 21   ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:17:27.0071 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:17:32.7153 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 22:17:32.7153 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 22:17:47.9074 202800 1    WARN  App: Enter user interactive mode 
+2024-11-04 22:17:47.9808 202800 9    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:17:47.9808 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:17:59.5738 202800 9    ERROR ColorSpace: Unable to get system color space on Windows 10+ System.ComponentModel.Win32Exception (2): Unable to get size of name of color profile.
+   at Carina.PixelViewer.Media.ColorSpace.<>c__DisplayClass64_0.<GetSystemScreenColorSpaceAsync>b__0() in C:\Studio\PixelViewer\PixelViewer\Media\ColorSpace.cs:line 838
+2024-11-04 22:17:59.5768 202800 1    DEBUG Workspace-1: Screen color space is 'sRGB IEC61966-2.1' 
+2024-11-04 22:18:04.5619 202800 1    WARN  App: Leave user interactive mode 
+2024-11-04 22:18:04.5619 202800 1    WARN  App: Perform GC with mode Optimized 
+2024-11-04 22:19:04.5858 202800 1    WARN  App: Perform GC with mode Forced 
+2024-11-04 22:26:41.5982 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 22:26:41.5982 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-04 22:26:42.0568 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-04 22:26:42.0568 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-04 22:26:42.0568 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-04 22:26:42.6093 202800 1    INFO  App: This is the latest application 
+2024-11-05 00:06:56.9237 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 00:06:56.9237 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-05 00:06:58.0912 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-05 00:06:58.0912 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 00:06:58.0912 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-05 00:06:58.0912 202800 1    INFO  App: This is the latest application 
+2024-11-05 01:06:53.4671 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 01:06:53.4671 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-05 01:06:53.8608 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-05 01:06:53.8608 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 01:06:53.8608 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-05 01:06:54.4727 202800 1    INFO  App: This is the latest application 
+2024-11-05 08:22:23.3944 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 08:22:23.3944 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-05 08:22:24.0571 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-05 08:22:24.0571 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 08:22:24.0571 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-05 08:22:24.3964 202800 1    INFO  App: This is the latest application 
+2024-11-05 21:02:50.3214 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 21:02:50.3214 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-05 21:03:09.9306 202800 1    ERROR JsonPackageResolver: Error occurred while performing operation System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken, Int32)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage, CancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage, HttpCompletionOption, CancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at CarinaStudio.Net.WebRequestStreamProvider.<>c__DisplayClass7_0.<OpenStreamAsync>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync(CancellationToken)
+   at CarinaStudio.AutoUpdate.BaseUpdaterComponent.PerformOperation()
+2024-11-05 21:03:09.9306 202800 1    DEBUG JsonPackageResolver: Change state from Started to Failed 
+2024-11-05 21:03:09.9306 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 21:03:09.9306 202800 1    ERROR App: No application version gotten from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 21:03:09.9306 202800 1    DEBUG JsonPackageResolver: Change state from Failed to Disposed 
+2024-11-05 22:02:50.3285 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 22:02:50.3285 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-05 22:02:50.8952 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-05 22:02:50.8952 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 22:02:50.8952 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-05 22:02:51.3396 202800 1    INFO  App: This is the latest application 
+2024-11-05 23:02:50.3293 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 23:02:50.3293 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-05 23:02:50.8278 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-05 23:02:50.8278 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-05 23:02:50.8278 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-05 23:02:51.3409 202800 1    INFO  App: This is the latest application 
+2024-11-06 00:02:50.3386 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-06 00:02:50.3386 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-06 00:02:51.0312 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-06 00:02:51.0312 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-06 00:02:51.0312 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-06 00:02:51.3398 202800 1    INFO  App: This is the latest application 
+2024-11-06 01:02:46.4547 202800 1    INFO  App: Start checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-06 01:02:46.4547 202800 1    DEBUG JsonPackageResolver: Change state from Initializing to Started 
+2024-11-06 01:02:46.9120 202800 1    DEBUG JsonPackageResolver: Change state from Started to Succeeded 
+2024-11-06 01:02:46.9120 202800 1    INFO  App: Complete checking update from https://raw.githubusercontent.com/carina-studio/PixelViewer/master/PackageManifest.json 
+2024-11-06 01:02:46.9120 202800 1    DEBUG JsonPackageResolver: Change state from Succeeded to Disposed 
+2024-11-06 01:02:47.4629 202800 1    INFO  App: This is the latest application 
+2024-11-06 01:44:38.6724 202800 1    WARN  SessionControl: Attached screen changed 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.6982 202800 1    WARN  Avalonia: [Binding][AnimatorKeyFrame] Error in binding to Avalonia.Animation.AnimatorKeyFrame.Value: Null value in expression '{empty}' at '$parent[ProgressBar, 0]'. 
+2024-11-06 01:44:38.7421 202800 1    WARN  Avalonia: [Binding][DataTriggerBehavior] Error in binding to Avalonia.Xaml.Interactions.Core.DataTriggerBehavior.Binding: Null value in expression '{empty}' at '$parent[UserControl, 0]'. 
+2024-11-06 01:44:38.7421 202800 1    WARN  Avalonia: [Binding][DataTriggerBehavior] Error in binding to Avalonia.Xaml.Interactions.Core.DataTriggerBehavior.Binding: Null value in expression '{empty}' at '$parent[UserControl, 0]'. 
+2024-11-06 01:44:38.7421 202800 1    WARN  Avalonia: [Binding][DataTriggerBehavior] Error in binding to Avalonia.Xaml.Interactions.Core.DataTriggerBehavior.Binding: Null value in expression '{empty}' at '$parent[UserControl, 0]'. 
+2024-11-06 01:44:38.7689 202800 1    DEBUG App: Main window 01bac80c closed, 0 remains 
+2024-11-06 01:44:38.7689 202800 1    DEBUG App: Start saving settings 
+2024-11-06 01:44:38.7825 202800 1    DEBUG App: Complete saving settings 
+2024-11-06 01:44:38.7825 202800 1    WARN  Workspace-1: Close session Session-2 when disposing workspace 
+2024-11-06 01:44:38.7825 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 10.3 MB, max: 2.0 GB 
+2024-11-06 01:44:38.7825 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 5.2 MB, max: 2.0 GB 
+2024-11-06 01:44:38.7825 202800 1    DEBUG Session-2: Release 5.2 MB for rendered image, total: 0 B, max: 2.0 GB 
+2024-11-06 01:44:38.7825 202800 26   DEBUG Session-2: Dispose source for 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-06 01:44:38.7825 202800 26   DEBUG FileImageDataSource: Release source of 'D:\PYTHON\eSFR_1920x1280_12b_GRGB_6500K_60Lux.raw' 
+2024-11-06 01:44:38.7955 202800 1    WARN  App: All main windows were closed, start shutting down 
+2024-11-06 01:44:38.7955 202800 1    WARN  App: Shut down requested by application 
+2024-11-06 01:44:38.7955 202800 1    WARN  App: Clear main window view-model states because of shutting down without main windows 
+2024-11-06 01:44:38.7955 202800 1    WARN  App: Prepare shutting down 
+2024-11-06 01:44:38.7955 202800 16   DEBUG ColorSpace: All I/O tasks completed 
+2024-11-06 01:44:38.7955 202800 22   DEBUG ImageRenderingProfiles: All I/O tasks completed 
+2024-11-06 01:44:38.8417 202800 1    WARN  App: Close multi-instances server stream 
+2024-11-06 01:44:38.8417 202800 1    DEBUG App: Start saving initial settings 
+2024-11-06 01:44:38.8417 202800 1    DEBUG App: Complete saving initial settings 
+2024-11-06 01:44:38.8417 202800 1    DEBUG App: Start saving persistent state 
+2024-11-06 01:44:38.8695 202800 1    DEBUG App: Complete saving persistent state 
+2024-11-06 01:44:38.8695 202800 1    WARN  App: Shut down 
+2024-11-06 01:44:38.8800 202800 1    WARN  App: Application lifetime was exited with code 0 

@@ -1,0 +1,26 @@
+{
+  "Name": "rawimage",
+  "Format": "RGB_888",
+  "ColorSpace": "sRGB",
+  "Demosaicing": true,
+  "Width": 1541,
+  "Height": 879,
+  "EffectiveBits": [
+    24
+  ],
+  "BlackLevels": [
+    0
+  ],
+  "WhiteLevels": [
+    16777215
+  ],
+  "PixelStrides": [
+    3
+  ],
+  "RowStrides": [
+    4624
+  ],
+  "RedColorGain": 1,
+  "GreenColorGain": 1,
+  "BlueColorGain": 1
+}

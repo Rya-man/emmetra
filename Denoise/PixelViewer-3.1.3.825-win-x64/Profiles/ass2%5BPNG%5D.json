@@ -1,0 +1,26 @@
+{
+  "Name": "ass2[PNG]",
+  "Format": "PNG",
+  "ColorSpace": "sRGB",
+  "Demosaicing": true,
+  "Width": 1541,
+  "Height": 879,
+  "EffectiveBits": [
+    1
+  ],
+  "BlackLevels": [
+    0
+  ],
+  "WhiteLevels": [
+    1
+  ],
+  "PixelStrides": [
+    0
+  ],
+  "RowStrides": [
+    0
+  ],
+  "RedColorGain": 1,
+  "GreenColorGain": 1,
+  "BlueColorGain": 1
+}
